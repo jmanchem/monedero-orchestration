@@ -1,0 +1,10 @@
+server:
+  port: 8099
+spring.cloud.stream:
+  function:
+    definition: supplier;consumer
+  bindings:
+    supplier-out-0:
+      destination: transaccion-created
+    consumer-in-0:
+      destination: transaccion-updated
