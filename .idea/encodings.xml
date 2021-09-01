@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-monedero-account/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-monedero-account/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-monedero-transaccion-orchestrator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-monedero-transaccion-orchestrator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-monedero-transaccion/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-monedero-transaccion/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-orchestrator/src/main/java" charset="UTF-8" />

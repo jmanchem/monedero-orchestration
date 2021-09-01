@@ -1,11 +1,8 @@
 package Transaccion.controller;
 
-import com.vinsguru.dto.OrderRequestDTO;
-import com.vinsguru.dto.OrderResponseDTO;
+import com.vinsguru.dto.*;
 import Transaccion.entity.Transaccion;
 import Transaccion.service.TransaccionService;
-import com.vinsguru.dto.TransaccionRequestDTO;
-import com.vinsguru.dto.TransaccionrResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,6 +21,15 @@ public class TransaccionController {
     public Transaccion createTransfer(@RequestBody TransaccionRequestDTO requestDTO){
         requestDTO.setTransaccionId(UUID.randomUUID());
         return this.service.createTransfer(requestDTO);
+    }
+    @PostMapping("/debit") // Poner deuda
+    public PaymentResponseDTO debit(@RequestBody PaymentRequestDTO requestDTO){
+        return this.service.debit(requestDTO);
+    }
+
+    @PostMapping("/credit")// Poner pago
+    public void credit(@RequestBody PaymentRequestDTO requestDTO){
+        this.service.credit(requestDTO);
     }
 
     @GetMapping("/all")

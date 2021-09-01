@@ -11,6 +11,6 @@ public class OrchestratorRequestDTO {
     private Integer productId;
     private UUID orderId;
     private Double amount;
-
+    private UUID TransaccionId;
 
 }

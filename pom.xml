@@ -10,8 +10,8 @@
 		<module>payment-service</module>
 		<module>inventory-service</module>
 		<module>ms-monedero-account</module>
-		<module>ms-monedero-transaction</module>
         <module>ms-monedero-transaccion</module>
+		<module>ms-monedero-transaccion-orchestrator</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>

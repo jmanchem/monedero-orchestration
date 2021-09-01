@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -28,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-dto/src/main/java/com/vinsguru/dto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../localmente/ms-monedero-transaction" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="ReactorSettings">
@@ -36,11 +43,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jmanchem\OneDrive - everis\Documentos\GitHub\protecto_LUIS-MEJORADO\proyecto04\monedero-kafka-orchestration\monedero-orchestration\ms-monedero-transaccion-orchestrator\src\main\java" />
+      <recent name="C:\Users\jmanchem\OneDrive - everis\Documentos\GitHub\protecto_LUIS-MEJORADO\proyecto04\monedero-kafka-orchestration\monedero-orchestration\ms-monedero-transaccion-orchestrator\src\main\resources" />
       <recent name="C:\Users\jmanchem\OneDrive - everis\Documentos\GitHub\protecto_LUIS-MEJORADO\proyecto04\monedero-orchestration\common-dto\src\main\java\com\vinsguru\dto" />
       <recent name="C:\Users\jmanchem\OneDrive - everis\Documentos\GitHub\protecto_LUIS-MEJORADO\proyecto04\monedero-orchestration\ms-monedero-transaccion\src\main\resources" />
       <recent name="C:\Users\jmanchem\OneDrive - everis\Documentos\GitHub\protecto_LUIS-MEJORADO\proyecto04\monedero-orchestration\ms-monedero-transaccion\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="saga.service" />
+      <recent name="saga.service.steps" />
       <recent name="com.vinsguru.enums" />
       <recent name="com.vinsguru.dto" />
     </key>
@@ -56,6 +67,13 @@
     <configuration name="MsMonederoAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-monedero-account" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ms.monedero.account.ms.monedero.account.MsMonederoAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrchestratorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-monedero-transaccion-orchestrator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vinsguru.saga.OrchestratorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +135,7 @@
       <workItem from="1630075670229" duration="8309000" />
       <workItem from="1630088966689" duration="5999000" />
       <workItem from="1630100904821" duration="9611000" />
+      <workItem from="1630419884598" duration="11347000" />
     </task>
     <servers />
   </component>
